@@ -17,7 +17,9 @@
 			<button type="button" class="buyProductTitle Button" style="cursor: pointer">Buy Now</button>
 			<section id="aboutUs" class="buyProduct">
 				<article>
-					<p><?=$product['content']?></p>
+					<p>
+						<?=$product['content']?>
+					</p>
 				</article>
 			</section>
 			<section id="buyProductGallery">
