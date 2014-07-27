@@ -6,7 +6,6 @@
 	$product = $products->get($_GET['id']);
 	$gallery = $productImages->getAllforProduct($product['id']);
 
-
 	require_once('include/header.php');
 ?>
 			<div class="productsCatalog">
@@ -14,7 +13,7 @@
 			</div>
 			<h1 class="buyProductTitle"><?=$product['title']?></h1>
 			<h1 class="buyProductTitle Price"><?=$product['price']?>$</h1>
-			<button type="button" class="buyProductTitle Button" style="cursor: pointer">Buy Now</button>
+			<button onclick="window.location.href='purchases.php?product_id=<?=$product['id']?>'" type="button" class="buyProductTitle Button" style="cursor: pointer">Buy Now</button>
 			<section id="aboutUs" class="buyProduct">
 				<article>
 					<p>

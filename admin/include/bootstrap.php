@@ -40,8 +40,7 @@ require_once('../classes/DBProductImage.php');
 require_once('../classes/ProductsImages.php');
 require_once('../classes/DBContacts.php');
 require_once('../classes/Contacts.php');
-
-
-
+require_once('../classes/DBPurchases.php');
+require_once('../classes/Purchases.php');
 
 ?>

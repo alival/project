@@ -17,6 +17,7 @@
         <a href="pages.php">Страници</a>
         <a href="products.php">Продукти</a>
         <a href="contacts.php">Контакти</a>
+        <a href="purchases.php">Поръчки</a>
         <a href="logout.php">Изход</a>
 
         <span>Здравей, <strong>

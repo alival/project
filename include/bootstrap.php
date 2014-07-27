@@ -34,4 +34,6 @@ require_once('classes/DBProduct.php');
 require_once('classes/Products.php');
 require_once('classes/DBProductImage.php');
 require_once('classes/ProductsImages.php');
+require_once('classes/DBPurchases.php');
+require_once('classes/Purchases.php');
 ?>
